@@ -1,0 +1,812 @@
+[
+  {
+    "managerName": "Makris",
+    "roomName": "101",
+    "numberOfPersons": 3,
+    "area": "Ampelokipoi",
+    "rating": 4.1,
+    "numberOfReviews": 38,
+    "roomImage": "image1.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "102",
+    "numberOfPersons": 4,
+    "area": "Ampelokipoi",
+    "rating": 4.0,
+    "numberOfReviews": 18,
+    "roomImage": "image2.jpg",
+    "price": 135
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "103",
+    "numberOfPersons": 2,
+    "area": "Ampelokipoi",
+    "rating": 4.4,
+    "numberOfReviews": 23,
+    "roomImage": "image3.jpg",
+    "price": 55
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "104",
+    "numberOfPersons": 2,
+    "area": "Ampelokipoi",
+    "rating": 4.4,
+    "numberOfReviews": 55,
+    "roomImage": "image5.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "105",
+    "numberOfPersons": 3,
+    "area": "Ampelokipoi",
+    "rating": 3.8,
+    "numberOfReviews": 42,
+    "roomImage": "image6.jpg",
+    "price": 90
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "106",
+    "numberOfPersons": 4,
+    "area": "Ampelokipoi",
+    "rating": 4.6,
+    "numberOfReviews": 18,
+    "roomImage": "image7.jpg",
+    "price": 115
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "107",
+    "numberOfPersons": 5,
+    "area": "Ampelokipoi",
+    "rating": 4.2,
+    "numberOfReviews": 25,
+    "roomImage": "image8.jpg",
+    "price": 135
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "108",
+    "numberOfPersons": 3,
+    "area": "Ampelokipoi",
+    "rating": 4.2,
+    "numberOfReviews": 39,
+    "roomImage": "image9.jpg",
+    "price": 70
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "109",
+    "numberOfPersons": 2,
+    "area": "Ampelokipoi",
+    "rating": 3.5,
+    "numberOfReviews": 44,
+    "roomImage": "image10.jpg",
+    "price": 55
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "110",
+    "numberOfPersons": 1,
+    "area": "Ampelokipoi",
+    "rating": 3.7,
+    "numberOfReviews": 51,
+    "roomImage": "image11.jpg",
+    "price": 35
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "111",
+    "numberOfPersons": 1,
+    "area": "Ampelokipoi",
+    "rating": 4.5,
+    "numberOfReviews": 16,
+    "roomImage": "image12.jpg",
+    "price": 35
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A001",
+    "numberOfPersons": 3,
+    "area": "Monastiraki",
+    "rating": 4.7,
+    "numberOfReviews": 67,
+    "roomImage": "image13.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A002",
+    "numberOfPersons": 4,
+    "area": "Monastiraki",
+    "rating": 4.3,
+    "numberOfReviews": 92,
+    "roomImage": "image14.jpg",
+    "price": 150
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A003",
+    "numberOfPersons": 2,
+    "area": "Monastiraki",
+    "rating": 2.9,
+    "numberOfReviews": 8,
+    "roomImage": "image15.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A004",
+    "numberOfPersons": 2,
+    "area": "Monastiraki",
+    "rating": 4.4,
+    "numberOfReviews": 55,
+    "roomImage": "image16.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A005",
+    "numberOfPersons": 3,
+    "area": "Monastiraki",
+    "rating": 3.3,
+    "numberOfReviews": 122,
+    "roomImage": "image17.jpg",
+    "price": 120
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A006",
+    "numberOfPersons": 4,
+    "area": "Monastiraki",
+    "rating": 3.8,
+    "numberOfReviews": 98,
+    "roomImage": "image18.jpg",
+    "price": 130
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A007",
+    "numberOfPersons": 5,
+    "area": "Monastiraki",
+    "rating": 4.2,
+    "numberOfReviews": 73,
+    "roomImage": "image19.jpg",
+    "price": 160
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A008",
+    "numberOfPersons": 3,
+    "area": "Monastiraki",
+    "rating": 4.2,
+    "numberOfReviews": 39,
+    "roomImage": "image20.jpg",
+    "price": 120
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A009",
+    "numberOfPersons": 2,
+    "area": "Monastiraki",
+    "rating": 4.8,
+    "numberOfReviews": 44,
+    "roomImage": "image21.jpg",
+    "price": 80
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A010",
+    "numberOfPersons": 1,
+    "area": "Monastiraki",
+    "rating": 3.6,
+    "numberOfReviews": 81,
+    "roomImage": "image22.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Makris",
+    "roomName": "A011",
+    "numberOfPersons": 1,
+    "area": "Monastiraki",
+    "rating": 4.3,
+    "numberOfReviews": 116,
+    "roomImage": "image23.jpg",
+    "price": 70
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "Milos",
+    "numberOfPersons": 3,
+    "area": "Plaka",
+    "rating": 3.9,
+    "numberOfReviews": 57,
+    "roomImage": "image24.jpg",
+    "price": 115
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "Xios",
+    "numberOfPersons": 4,
+    "area": "Plaka",
+    "rating": 4.2,
+    "numberOfReviews": 422,
+    "roomImage": "image25.jpg",
+    "price": 170
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "Kriti",
+    "numberOfPersons": 2,
+    "area": "Plaka",
+    "rating": 4.9,
+    "numberOfReviews": 69,
+    "roomImage": "image26.jpg",
+    "price": 85
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "Ikaria",
+    "numberOfPersons": 2,
+    "area": "Plaka",
+    "rating": 4.6,
+    "numberOfReviews": 37,
+    "roomImage": "image27.jpg",
+    "price": 90
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "Syros",
+    "numberOfPersons": 3,
+    "area": "Plaka",
+    "rating": 4.1,
+    "numberOfReviews": 202,
+    "roomImage": "image28.jpg",
+    "price": 125
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0001",
+    "numberOfPersons": 1,
+    "area": "Kipseli",
+    "rating": 4.3,
+    "numberOfReviews": 26,
+    "roomImage": "image29.jpg",
+    "price": 25
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0002",
+    "numberOfPersons": 3,
+    "area": "Kipseli",
+    "rating": 3.9,
+    "numberOfReviews": 57,
+    "roomImage": "image30.jpg",
+    "price": 75
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0003",
+    "numberOfPersons": 4,
+    "area": "Kipseli",
+    "rating": 3.2,
+    "numberOfReviews": 133,
+    "roomImage": "image31.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0004",
+    "numberOfPersons": 2,
+    "area": "Kipseli",
+    "rating": 3.3,
+    "numberOfReviews": 59,
+    "roomImage": "image32.jpg",
+    "price": 50
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0005",
+    "numberOfPersons": 2,
+    "area": "Kipseli",
+    "rating": 4.5,
+    "numberOfReviews": 37,
+    "roomImage": "image33.jpg",
+    "price": 65
+  },
+  {
+    "managerName": "Lelou",
+    "roomName": "K0006",
+    "numberOfPersons": 5,
+    "area": "Kipseli",
+    "rating": 3.1,
+    "numberOfReviews": 142,
+    "roomImage": "image34.jpg",
+    "price": 125
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1010",
+    "numberOfPersons": 2,
+    "area": "Neo Psyxiko",
+    "rating": 4.1,
+    "numberOfReviews": 98,
+    "roomImage": "image35.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1012",
+    "numberOfPersons": 4,
+    "area": "Neo Psyxiko",
+    "rating": 4.0,
+    "numberOfReviews": 138,
+    "roomImage": "image36.jpg",
+    "price": 150
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1013",
+    "numberOfPersons": 2,
+    "area": "Neo Psyxiko",
+    "rating": 4.7,
+    "numberOfReviews": 33,
+    "roomImage": "image37.jpg",
+    "price": 90
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1014",
+    "numberOfPersons": 2,
+    "area": "Neo Psyxiko",
+    "rating": 4.4,
+    "numberOfReviews": 55,
+    "roomImage": "image38.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1015",
+    "numberOfPersons": 3,
+    "area": "Neo Psyxiko",
+    "rating": 3.8,
+    "numberOfReviews": 72,
+    "roomImage": "image39.jpg",
+    "price": 125
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "1016",
+    "numberOfPersons": 4,
+    "area": "Neo Psyxiko",
+    "rating": 4.6,
+    "numberOfReviews": 88,
+    "roomImage": "image40.jpg",
+    "price": 165
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO1",
+    "numberOfPersons": 5,
+    "area": "Neo Herakleion",
+    "rating": 4.3,
+    "numberOfReviews": 105,
+    "roomImage": "image41.jpg",
+    "price": 145
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO2",
+    "numberOfPersons": 3,
+    "area": "Neo Herakleion",
+    "rating": 3.2,
+    "numberOfReviews": 39,
+    "roomImage": "image42.jpg",
+    "price": 95
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO3",
+    "numberOfPersons": 2,
+    "area": "Neo Herakleion",
+    "rating": 4.5,
+    "numberOfReviews": 94,
+    "roomImage": "image43.jpg",
+    "price": 75
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO4",
+    "numberOfPersons": 1,
+    "area": "Neo Herakleion",
+    "rating": 3.7,
+    "numberOfReviews": 151,
+    "roomImage": "image44.jpg",
+    "price": 40
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO5",
+    "numberOfPersons": 1,
+    "area": "Neo Herakleion",
+    "rating": 4.8,
+    "numberOfReviews": 76,
+    "roomImage": "image45.jpg",
+    "price": 45
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO6",
+    "numberOfPersons": 3,
+    "area": "Neo Herakleion",
+    "rating": 4.7,
+    "numberOfReviews": 67,
+    "roomImage": "image46.jpg",
+    "price": 105
+  },
+  {
+    "managerName": "Kara",
+    "roomName": "NEO7",
+    "numberOfPersons": 4,
+    "area": "Neo Herakleion",
+    "rating": 4.3,
+    "numberOfReviews": 92,
+    "roomImage": "image47.jpg",
+    "price": 138
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2000",
+    "numberOfPersons": 2,
+    "area": "Monastiraki",
+    "rating": 4.9,
+    "numberOfReviews": 58,
+    "roomImage": "image48.jpg",
+    "price": 75
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2001",
+    "numberOfPersons": 2,
+    "area": "Monastiraki",
+    "rating": 4.6,
+    "numberOfReviews": 35,
+    "roomImage": "image49.jpg",
+    "price": 70
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2002",
+    "numberOfPersons": 3,
+    "area": "Monastiraki",
+    "rating": 3.5,
+    "numberOfReviews": 141,
+    "roomImage": "image50.jpg",
+    "price": 120
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2003",
+    "numberOfPersons": 4,
+    "area": "Monastiraki",
+    "rating": 4.8,
+    "numberOfReviews": 68,
+    "roomImage": "image51.jpg",
+    "price": 145
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2004",
+    "numberOfPersons": 5,
+    "area": "Monastiraki",
+    "rating": 4.2,
+    "numberOfReviews": 73,
+    "roomImage": "image52.jpg",
+    "price": 160
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "2005",
+    "numberOfPersons": 3,
+    "area": "Monastiraki",
+    "rating": 3.2,
+    "numberOfReviews": 99,
+    "roomImage": "image53.jpg",
+    "price": 120
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn01",
+    "numberOfPersons": 2,
+    "area": "Syntagma",
+    "rating": 4.5,
+    "numberOfReviews": 164,
+    "roomImage": "image54.jpg",
+    "price": 80
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn02",
+    "numberOfPersons": 1,
+    "area": "Syntagma",
+    "rating": 3.9,
+    "numberOfReviews": 81,
+    "roomImage": "image55.jpg",
+    "price": 70
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn03",
+    "numberOfPersons": 1,
+    "area": "Syntagma",
+    "rating": 4.3,
+    "numberOfReviews": 136,
+    "roomImage": "image56.jpg",
+    "price": 75
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn04",
+    "numberOfPersons": 3,
+    "area": "Syntagma",
+    "rating": 4.4,
+    "numberOfReviews": 77,
+    "roomImage": "image57.jpg",
+    "price": 115
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn05",
+    "numberOfPersons": 6,
+    "area": "Syntagma",
+    "rating": 4.1,
+    "numberOfReviews": 107,
+    "roomImage": "image58.jpg",
+    "price": 175
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn06",
+    "numberOfPersons": 2,
+    "area": "Syntagma",
+    "rating": 4.6,
+    "numberOfReviews": 59,
+    "roomImage": "image59.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Xoutos",
+    "roomName": "Syn07",
+    "numberOfPersons": 2,
+    "area": "Syntagma",
+    "rating": 5.0,
+    "numberOfReviews": 27,
+    "roomImage": "image60.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "Ionia1",
+    "numberOfPersons": 3,
+    "area": "Nea Ionia",
+    "rating": 3.1,
+    "numberOfReviews": 112,
+    "roomImage": "image61.jpg",
+    "price": 89
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "Ionia2",
+    "numberOfPersons": 1,
+    "area": "Nea Ionia",
+    "rating": 4.3,
+    "numberOfReviews": 306,
+    "roomImage": "image62.jpg",
+    "price": 35
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "Ionia3",
+    "numberOfPersons": 3,
+    "area": "Nea Ionia",
+    "rating": 3.8,
+    "numberOfReviews": 77,
+    "roomImage": "image63.jpg",
+    "price": 96
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "Ionia4",
+    "numberOfPersons": 2,
+    "area": "Nea Ionia",
+    "rating": 3.2,
+    "numberOfReviews": 133,
+    "roomImage": "image64.jpg",
+    "price": 55
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "P1",
+    "numberOfPersons": 2,
+    "area": "Plaka",
+    "rating": 3.3,
+    "numberOfReviews": 59,
+    "roomImage": "image65.jpg",
+    "price": 85
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "P2",
+    "numberOfPersons": 2,
+    "area": "Plaka",
+    "rating": 3.5,
+    "numberOfReviews": 337,
+    "roomImage": "image66.jpg",
+    "price": 90
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "P3",
+    "numberOfPersons": 4,
+    "area": "Plaka",
+    "rating": 4.8,
+    "numberOfReviews": 12,
+    "roomImage": "image67.jpg",
+    "price": 170
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "P4",
+    "numberOfPersons": 3,
+    "area": "Plaka",
+    "rating": 3.8,
+    "numberOfReviews": 79,
+    "roomImage": "image68.jpg",
+    "price": 135
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "P5",
+    "numberOfPersons": 1,
+    "area": "Plaka",
+    "rating": 4.5,
+    "numberOfReviews": 115,
+    "roomImage": "image69.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "ROOM1",
+    "numberOfPersons": 2,
+    "area": "Xolargos",
+    "rating": 3.8,
+    "numberOfReviews": 119,
+    "roomImage": "image70.jpg",
+    "price": 100
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "ROOM2",
+    "numberOfPersons": 3,
+    "area": "Xolargos",
+    "rating": 4.8,
+    "numberOfReviews": 39,
+    "roomImage": "image71.jpg",
+    "price": 145
+  },
+  {
+    "managerName": "Papadopoulos",
+    "roomName": "ROOM3",
+    "numberOfPersons": 1,
+    "area": "Xolargos",
+    "rating": 4.5,
+    "numberOfReviews": 315,
+    "roomImage": "image72.jpg",
+    "price": 60
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "1000-01",
+    "numberOfPersons": 3,
+    "area": "Peristeri",
+    "rating": 3.8,
+    "numberOfReviews": 79,
+    "roomImage": "image73.jpg",
+    "price": 105
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "1000-02",
+    "numberOfPersons": 1,
+    "area": "Peristeri",
+    "rating": 4.6,
+    "numberOfReviews": 415,
+    "roomImage": "image74.jpg",
+    "price": 35
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "1000-03",
+    "numberOfPersons": 2,
+    "area": "Peristeri",
+    "rating": 3.8,
+    "numberOfReviews": 119,
+    "roomImage": "image75.jpg",
+    "price": 50
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "1000-04",
+    "numberOfPersons": 3,
+    "area": "Peristeri",
+    "rating": 3.6,
+    "numberOfReviews": 90,
+    "roomImage": "image76.jpg",
+    "price": 95
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "1000-05",
+    "numberOfPersons": 1,
+    "area": "Peristeri",
+    "rating": 4.6,
+    "numberOfReviews": 215,
+    "roomImage": "image77.jpg",
+    "price": 35
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "Petra1",
+    "numberOfPersons": 3,
+    "area": "Petroupoli",
+    "rating": 3.9,
+    "numberOfReviews": 79,
+    "roomImage": "image78.jpg",
+    "price": 105
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "Petra2",
+    "numberOfPersons": 2,
+    "area": "Petroupoli",
+    "rating": 4.3,
+    "numberOfReviews": 115,
+    "roomImage": "image79.jpg",
+    "price": 80
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "Petra3",
+    "numberOfPersons": 2,
+    "area": "Petroupoli",
+    "rating": 4.0,
+    "numberOfReviews": 222,
+    "roomImage": "image80.jpg",
+    "price": 80
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "Petra4",
+    "numberOfPersons": 4,
+    "area": "Petroupoli",
+    "rating": 4.6,
+    "numberOfReviews": 57,
+    "roomImage": "image81.jpg",
+    "price": 155
+  },
+  {
+    "managerName": "Vlachos",
+    "roomName": "Petra5",
+    "numberOfPersons": 5,
+    "area": "Petroupoli",
+    "rating": 4.2,
+    "numberOfReviews": 48,
+    "roomImage": "image82.jpg",
+    "price": 165
+  }
+]

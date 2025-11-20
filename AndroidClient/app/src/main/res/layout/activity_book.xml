@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BookActivity">
+
+    <TextView
+        android:id="@+id/fillInBookFormula"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#292832"
+        android:gravity="center"
+        android:text="Fill out the fields below."
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fillInBookFormula" />
+
+    <EditText
+        android:id="@+id/numberOfPeopleBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Number Of Persons"
+        app:layout_constraintEnd_toEndOf="@+id/bookName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bookName"
+        app:layout_constraintTop_toBottomOf="@+id/bookName" />
+
+    <EditText
+        android:id="@+id/dateFromBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Date from (dd/MM/yy)"
+        app:layout_constraintEnd_toEndOf="@+id/numberOfPeopleBook"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/numberOfPeopleBook"
+        app:layout_constraintTop_toBottomOf="@+id/numberOfPeopleBook" />
+
+    <EditText
+        android:id="@+id/dateToBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Date to (dd/MM/yy)"
+        app:layout_constraintEnd_toEndOf="@+id/dateFromBook"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dateFromBook"
+        app:layout_constraintTop_toBottomOf="@+id/dateFromBook" />
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:hint="Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dateToBook"
+        app:layout_constraintStart_toStartOf="@+id/dateToBook"
+        app:layout_constraintTop_toBottomOf="@+id/dateToBook"
+        app:layout_constraintVertical_bias="0.412" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

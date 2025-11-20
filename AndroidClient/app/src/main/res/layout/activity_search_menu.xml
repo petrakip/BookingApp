@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SearchMenu">
+
+    <TextView
+        android:id="@+id/searchLabel"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:background="#292832"
+        android:gravity="center"
+        android:text="Select Filters"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Area:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Date:"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/area"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/area"
+        app:layout_constraintTop_toBottomOf="@+id/area" />
+
+    <TextView
+        android:id="@+id/capacity"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="Number Of People:"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Price:"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/capacity"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/capacity"
+        app:layout_constraintTop_toBottomOf="@+id/capacity" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Stars:"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/price"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/price"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+    <EditText
+        android:id="@+id/areaBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="area (accepts wildcard '*')"
+        android:inputType="text|textNoSuggestions"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toEndOf="@+id/area"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <EditText
+        android:id="@+id/fromDateBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="from (DD/MM/YY)"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/toDateBlank"
+        app:layout_constraintEnd_toEndOf="@+id/areaBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/areaBlank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/toDateBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="to (DD/MM/YY)"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/fromDateBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fromDateBlank"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/peopleNumberBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="256dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="number of people"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/toDateBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toDateBlank"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fromPriceBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="from"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/toPriceBlank"
+        app:layout_constraintEnd_toEndOf="@+id/peopleNumberBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/peopleNumberBlank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/toPriceBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="to"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/fromPriceBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fromPriceBlank"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fromRateBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="416dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="from"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/toRateBlank"
+        app:layout_constraintEnd_toEndOf="@+id/toPriceBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toPriceBlank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <EditText
+        android:id="@+id/toRateBlank"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="to"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fromRateBlank"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fromRateBlank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <Button
+        android:id="@+id/searchFilterButton"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:text="🔍 Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toRateBlank" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

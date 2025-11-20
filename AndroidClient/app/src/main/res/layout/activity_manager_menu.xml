@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ManagerMenu">
+
+    <Button
+        android:id="@+id/addRoomButton"
+        android:layout_width="198dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#878786"
+        android:text="Add New Rooms \n (From JSON File)"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <Button
+        android:id="@+id/statisticsButton"
+        android:layout_width="198dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#878786"
+        android:text="Show Room Statistics"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/addRoomButton"
+        app:layout_constraintStart_toStartOf="@+id/addRoomButton"
+        app:layout_constraintTop_toBottomOf="@+id/addRoomButton"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/reservationButton"
+        android:layout_width="198dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#878786"
+        android:text="Show Rooms Reservations"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/statisticsButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/statisticsButton"
+        app:layout_constraintTop_toBottomOf="@+id/statisticsButton"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/managerOption"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#292832"
+        android:gravity="center"
+        android:text="Manager's Options"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/addRoomButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/managerImage"
+        android:layout_width="270dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toTopOf="@+id/addRoomButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managerOption"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/manager_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

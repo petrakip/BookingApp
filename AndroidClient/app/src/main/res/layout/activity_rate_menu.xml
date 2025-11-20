@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".RateMenu">
+
+    <TextView
+        android:id="@+id/clientOption"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#292832"
+        android:gravity="center"
+        android:text="⭐ Rating ⭐"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/roomName"
+        android:layout_width="232dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Please Enter Room Name"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        android:backgroundTint="#0CDFFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="110dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="184dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ratingBar"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="232dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="28dp"
+        android:progressTint="#FFCA28"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintEnd_toEndOf="@+id/roomName"
+        app:layout_constraintStart_toStartOf="@+id/roomName"
+        app:layout_constraintTop_toBottomOf="@+id/roomName"
+        app:layout_constraintVertical_bias="0.476" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

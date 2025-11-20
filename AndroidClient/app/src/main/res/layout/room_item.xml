@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/roomName"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Room Name"
+        android:textSize="17dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numberOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="People"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/areaResult"
+        app:layout_constraintTop_toBottomOf="@+id/areaResult" />
+
+    <TextView
+        android:id="@+id/areaResult"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Area"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/roomName"
+        app:layout_constraintTop_toBottomOf="@+id/roomName" />
+
+    <TextView
+        android:id="@+id/priceRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Price:"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/reviewsRoom"
+        app:layout_constraintTop_toBottomOf="@+id/reviewsRoom" />
+
+    <TextView
+        android:id="@+id/starsRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toStartOf="@+id/starsEdit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/numberOfPeople"
+        app:layout_constraintTop_toBottomOf="@+id/numberOfPeople" />
+
+    <TextView
+        android:id="@+id/reviewsRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Reviews:"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/starsRoom"
+        app:layout_constraintTop_toBottomOf="@+id/starsRoom" />
+
+    <TextView
+        android:id="@+id/roomNameEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintStart_toEndOf="@+id/roomName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areaEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/roomNameEdit"
+        app:layout_constraintStart_toStartOf="@+id/roomNameEdit"
+        app:layout_constraintTop_toBottomOf="@+id/roomNameEdit" />
+
+    <TextView
+        android:id="@+id/peopleEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/areaEdit"
+        app:layout_constraintStart_toStartOf="@+id/areaEdit"
+        app:layout_constraintTop_toBottomOf="@+id/areaEdit" />
+
+    <TextView
+        android:id="@+id/starsEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/peopleEdit"
+        app:layout_constraintStart_toStartOf="@+id/peopleEdit"
+        app:layout_constraintTop_toBottomOf="@+id/peopleEdit" />
+
+    <TextView
+        android:id="@+id/reviewsEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/starsEdit"
+        app:layout_constraintStart_toStartOf="@+id/starsEdit"
+        app:layout_constraintTop_toBottomOf="@+id/starsEdit" />
+
+    <TextView
+        android:id="@+id/priceEdit"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:text=""
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/reviewsEdit"
+        app:layout_constraintStart_toStartOf="@+id/reviewsEdit"
+        app:layout_constraintTop_toBottomOf="@+id/reviewsEdit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

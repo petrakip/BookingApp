@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/masterIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="Master Ip Address"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        app:layout_constraintEnd_toEndOf="@+id/settings"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/settings"
+        app:layout_constraintTop_toBottomOf="@+id/settings" />
+
+    <EditText
+        android:id="@+id/masterPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#0CDFFA"
+        android:ems="10"
+        android:hint="Master Port"
+        android:inputType="text"
+        android:textColorHint="#656262"
+        app:layout_constraintEnd_toEndOf="@+id/masterIp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/masterIp"
+        app:layout_constraintTop_toBottomOf="@+id/masterIp" />
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#292832"
+        android:gravity="center"
+        android:text="Connection's Settings"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="92dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/masterPort"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/masterPort"
+        app:layout_constraintTop_toBottomOf="@+id/masterPort"
+        app:layout_constraintVertical_bias="0.024" />
+</androidx.constraintlayout.widget.ConstraintLayout>
